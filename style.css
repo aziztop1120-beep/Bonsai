@@ -1,0 +1,29 @@
+/* Katta ekranlar uchun (default) */
+.container {
+  width: 1200px;
+}
+
+/* Planshetlar uchun */
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+/* Telefonlar uchun */
+@media (max-width: 480px) {
+  .container {
+    font-size: 14px;
+  }
+  .menu {
+    flex-direction: column;
+  }
+}.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  flex: 1 1 300px; /* minimal 300px, qolganini bo'lib oladi */
+}

@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Bonsai</title>
     <link rel="icon" href="./img/image copy 9.png">
     <script src="https://cdn.tailwindcss.com"></script>
@@ -14,36 +13,24 @@
 
     <section class="relative overflow-hidden min-h-screen bg-white">
 
-        <!-- Background -->
-        <!-- Background -->
-        <div class="absolute inset-0 -z-10 overflow-hidden">
-
-
-
-        </div>
-        <!-- Navbar -->
+        <div class="absolute inset-0 -z-10 overflow-hidden"></div>
         <header class="bg-white">
-            <div class="max-w-7xl mx-auto flex items-center justify-between py-6 px-8">
-
-                <img src="./img/image.png" class="h-10" alt="logo">
-
-                <div class="flex items-center gap-6">
-
-                    <select class="bg-transparent outline-none text-gray-700">
+            <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-4 py-6 px-4 sm:px-6 lg:px-8">
+                <img src="./img/image.png" class="h-8 sm:h-10" alt="logo">
+                <div class="flex flex-wrap items-center gap-3 sm:gap-6">
+                    <select class="bg-transparent outline-none text-gray-700 text-sm sm:text-base">
                         <option>Product</option>
                         <option>Pomidor</option>
                         <option>Bodring</option>
                     </select>
-
                     <button
-                        class="px-6 py-2 border border-[#00b289] text-[#00b289] rounded-md hover:bg-[#00b289] hover:text-white transition">
+                        class="px-4 sm:px-6 py-2 border border-[#00b289] text-[#00b289] text-sm sm:text-base
+                         rounded-md hover:bg-[#00b289] hover:text-white transition">
                         LOG IN
                     </button>
-
                     <button
-                        class="px-6 py-2 bg-[#00b289] text-white rounded-md border border-[#00b289] hover:bg-white hover:text-[#00b289] transition">
-
-
+                        class="px-4 sm:px-6 py-2 bg-[#00b289] text-white text-sm sm:text-base rounded-md
+                         border border-[#00b289] hover:bg-white hover:text-[#00b289] transition">
                         START FREE
                     </button>
 
@@ -52,82 +39,83 @@
             </div>
         </header>
 
-        <!-- Hero -->
-        <div class="max-w-7xl mx-auto px-8 py-24">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-24">
 
-            <div class="grid lg:grid-cols-2 gap-20 items-center">
+            <div class="grid lg:grid-cols-2 gap-10 sm:gap-16 lg:gap-20 items-center">
 
-                <div class="flex  justify-around">
+                <div class="flex justify-center lg:justify-start">
 
-                    <div>
-                        <h1 class="text-6xl font-light text-gray-700 leading-tight">
-                            Everything you <br>
-                            need to run your <br>
+                    <div class="text-center lg:text-left">
+                        <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-light text-gray-700 leading-tight">
+                            Everything you
+                            need to run your
                             freelance business.
                         </h1>
 
-                        <p class="mt-8 text-lg text-gray-500 max-w-md">
+                        <p class="mt-6 sm:mt-8 text-base sm:text-lg text-gray-500 max-w-md mx-auto lg:mx-0">
                             Bonsai's all-in-one product suite with smart automation lets
                             you focus on your passion, not your paperwork.
                         </p>
 
-                        <div class="flex mt-10">
-                            <input class="w-80 h-14 px-5 border rounded-l-md outline-none"
+                        <div class="flex flex-col sm:flex-row mt-8 sm:mt-10 gap-3 sm:gap-0 max-w-md mx-auto lg:mx-0">
+                            <input class="w-full sm:w-80 h-14 px-5 border rounded-md sm:rounded-l-md sm:rounded-r-none outline-none"
                                 placeholder="Enter your email">
 
-                            <button class="px-8 bg-[#00b289] text-white rounded-r-md hover:bg-[#009b77]">
+                            <button class="px-8 h-14 sm:h-auto bg-[#00b289] text-white rounded-md sm:rounded-l-none sm:rounded-r-md hover:bg-[#009b77]">
                                 START FREE
                             </button>
                         </div>
 
-
                     </div>
-
-
 
                 </div>
 
             </div>
+        </div>
 
     </section>
 
 
-    <div class="bg-white">
+    <div class="bg-white px-4 sm:px-6 lg:px-8">
 
-        <h1 class="text-5xl font-[400]  text-center text-zinc-600 ">Make more, manage less</h1>
+        <h1 class="text-3xl sm:text-4xl lg:text-5xl font-[400] text-center text-zinc-600">Make more, manage less</h1>
 
-        <p class="w-[943px] h-[64px] pl-[400px] mt-4 text-2xl font-[400]  text-center text-zinc-600">Bonsai integrates
-            and automates every step of your business so it runs seamlessly - from proposal to tax
+        <p class="max-w-3xl mx-auto mt-4 text-base sm:text-lg lg:text-2xl font-[400] text-center text-zinc-600">
+            Bonsai integrates and automates every step of your business so it runs seamlessly - from proposal to tax
             season.</p>
-        <br><br><br><br><br>
-        <div class="flex items-center justify-around ">
-            <img class="w-[479.53125px] h-[423.75px]" src="./img/image copy.png" alt="img">
-            <img class="w-[479.53125px] h-[423.75px]" src="./img/image copy 2.png" alt="img">
+        <br class="hidden sm:block"><br class="hidden sm:block">
+        <div class="flex flex-col md:flex-row items-center justify-around gap-8 md:gap-4 py-10">
+            <img class="w-full max-w-[479px] h-auto" src="./img/image copy.png" alt="img">
+            <img class="w-full max-w-[479px] h-auto" src="./img/image copy 2.png" alt="img">
         </div>
 
     </div>
-    <br><br><br><br>
-    <img src="./img/image copy 3.png" alt="img">
 
-    <h1 class="text-5xl font-[400]  text-center text-zinc-600 ">Trusted by 250K+ freelancers and agencies.</h1>
-    <p class="w-[983px] h-[64px] pl-[400px] mt-4 text-2xl font-[400]  text-center text-zinc-600">Whether youre just
-        getting started or your business is booming, Bonsai has you covered..</p>
-<br><br><br><br><br><br>
-        <img src="./img/image copy 5.png" alt="img">
+    <div class="px-4 sm:px-6 lg:px-8 py-10">
+        <img class="w-full h-auto" src="./img/image copy 3.png" alt="img">
+    </div>
 
-        <br><br><br><br><br><br><br><br>
+    <h1 class="text-3xl sm:text-4xl lg:text-5xl font-[400] text-center text-zinc-600 px-4">Trusted by 250K+ freelancers and agencies.</h1>
+    <p class="max-w-3xl mx-auto mt-4 text-base sm:text-lg lg:text-2xl font-[400] text-center text-zinc-600 px-4">Whether you're just
+        getting started or your business is booming, Bonsai has you covered.</p>
 
-        <h1 class="text-5xl font-[400]  text-center text-zinc-600 ">Don't just take it from us.</h1>
-<br><br><br><br><br><br>
-<img src="./img/image copy 6.png" alt="img">
+    <div class="px-4 sm:px-6 lg:px-8 py-10">
+        <img class="w-full h-auto" src="./img/image copy 5.png" alt="img">
+    </div>
 
-<br><br><br><br><br><br>
+    <h1 class="text-3xl sm:text-4xl lg:text-5xl font-[400] text-center text-zinc-600 px-4">Don't just take it from us.</h1>
 
-<img class=" ml-36 aligin-center jucfiy-center w-[1,066px] h-[336px] border " src="./img/image copy 7.png" alt="img">
+    <div class="px-4 sm:px-6 lg:px-8 py-10">
+        <img class="w-full h-auto" src="./img/image copy 6.png" alt="img">
+    </div>
 
-<br><br><br><br><br><br>
+    <div class="px-4 sm:px-6 lg:px-8 py-10 flex justify-center">
+        <img class="w-full max-w-4xl h-auto border" src="./img/image copy 7.png" alt="img">
+    </div>
 
-<img class="ml-24"  src="./img/image copy 8.png" alt="img">
+    <div class="px-4 sm:px-6 lg:px-8 py-10">
+        <img class="w-full h-auto" src="./img/image copy 8.png" alt="img">
+    </div>
 </body>
 
 </html>
